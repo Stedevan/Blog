@@ -1,22 +1,60 @@
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url("fontawesome-all.min.css");
 * {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'ArgosGeorge';
+  src: url(../my-fonts/argos-george.regular.ttf); }
+
+
 body {
   font-family: Arial;
   padding: 20px;
-  background: #ddc4c4;
+  background: #242323;
+}
+
+h1{
+  color:#000000;
+  font-family: Dancing Script, cursive;
+  
 }
 
 a {
   text-decoration: none;
-  margin-right: 20px;
-  color: #000;
+  color: #ffffff;
+   font-family: Dancing Script;
+   font-size: 1.5em;
+   margin-right: 20px;
+   
+  
+  
 }
 
 a:hover {
-  color: #ffffff;
+  color: #000000;
+}
+
+p {
+  color:#ffffff;
+}
+
+h2,h3,h5 {
+  color:#ffffff;
+  display: inline-block;
+  font-family: Dancing Script, cursive;
+
+}
+
+h2:hover {
+  color:#000000;
+  
+}
+
+h3:hover {
+  color:#000000;
+
 }
 
 /* Header/Blog Title */
@@ -24,9 +62,11 @@ a:hover {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background-image: url('pic.jpg');
+  background-image: url('poster2.png');
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
+  
 
 }
 
@@ -36,7 +76,25 @@ nav {
   margin-bottom: 20px;
   margin-right: 20px;
 
+
 } 
+
+.button {
+  background-color: #4b4848;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+  border-radius: 10px;
+  
+}
+
+
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
@@ -60,14 +118,18 @@ nav {
   background-image: url('pic.jpg');
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
+  
 
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: rgb(204, 195, 119);
+  background-color: #4b4848;
   padding: 20px;
   margin-top: 20px;
+  border-radius: 10px;
+  
 }
 
 /* Clear floats after the columns */
@@ -83,6 +145,8 @@ nav {
   text-align: center;
   background: #a19e9e;
   margin-top: 20px;
+  border-radius: 10px;
+  
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
